@@ -1,0 +1,143 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* About2 CSS Start */
+.about2{
+    margin: auto;
+    max-width: 90%;
+    margin-bottom: 100px;
+}
+.about2-giris{   
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 50px 0;
+    font: 400 24px/1.9 poppins,sans-serif;   
+}
+.about2-giris a{
+    text-decoration: none;
+    color: black; 
+    text-align: justify;
+}
+.about2-page1, .about2-page5{
+    display: flex;    
+}
+.about2-page1 h1{
+    font: 600 50px/1.2 poppins,sans-serif; 
+    margin: 0 0 100px 13%;
+}
+.about2-page3{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.about2-page3-h1 h1{
+    font: 500 20px/1 poppins,sans-serif;
+    color: #666;  
+    margin: 50px 0 0 -170px;
+}
+.about2-page3-p p{
+    max-width: 970px;
+    font: 400 24px/1.9 poppins,sans-serif;
+    color: #666;
+    text-align: justify;
+}
+.about2-page3-p p span{
+    color: black;
+}
+.about2-page4{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about2-page45{
+    background-image: url("../img/about2-page4-background.jpg");
+    object-fit: cover;
+}
+.about2-page4-h1 h1{
+    font: 500 20px/1 poppins,sans-serif;
+    color: #666;  
+    margin: 50px 0 0 0;
+}
+.about2-page4-section div{
+    padding: 30px;
+}
+.about2-page4-section{
+    max-width: 970px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about2-page4-section h1{
+    font: 600 24px poppins,sans-serif;
+    color: #000;
+    padding: 0 0 20px 0;
+}
+.about2-page4-section p{
+    font: 400 16px/2.1428 poppins,sans-serif;
+    letter-spacing: .025em;    
+    text-align: justify;
+    max-width: 300px;
+}
+.about2-page4-section i{
+    font-size: 60px;
+    padding: 40px 0 40px 0;
+}
+.about2-page5-h1 h1{
+    font: 500 20px/1 poppins,sans-serif;
+    color: #666;  
+    margin: 50px 0 0 -105px;
+}
+.about2-page5-section{
+    max-width: 970px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about2-page5-section div{
+    margin-left: 40px;
+    padding: 60px;
+}
+@media only screen and (max-width:768px){
+    .about2-giris{   
+        font: 400 16px/1.9 poppins,sans-serif;   
+    }
+    .about2-page1 h1{
+        font: 600 18px/1.2 poppins,sans-serif; 
+        margin: 0 0 50px 10%;
+    }
+    .about2-page3{
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .about2-page3-h1 h1{
+        font: 500 20px/1 poppins,sans-serif;
+        color: #666;  
+        margin: 10px 0 20px 0;
+    }
+    .about2-page4, .about2-page4-section, .about2-page5{
+        display: flex;
+        flex-direction: column;
+    }
+    .about2-page4-h1 h1{
+        max-width: 50px;
+        margin: 10px 0 20px 0;
+    }
+    .about2-page5-h1 h1{
+        font: 500 20px/1 poppins,sans-serif;
+        color: #666;  
+        max-width: 50px;
+        margin: 10px 0 0 0;
+    }
+    .about2-page5-section{
+        margin: 0 0 0 -50px;
+    }
+    .about2-page5-section img{
+        width: 100%;
+    }
+}
+/* About2 CSS Finish */
